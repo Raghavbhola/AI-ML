@@ -99,6 +99,8 @@ print("Ends with:- ", string.lower().endswith("fox"))
 print("Is the word in uppercase? :- ", "DATA".isupper())
 
 
+#-----------------------------------{Day-3 , [Nov. 03, 2026]}-----------------------------------------------------
+
 #Replacing and splitting and joining strings ---------------------
 updated_text = string.replace("fox", "Lion") #it looks for whole string and sub-string too
 #print(updated_text)
