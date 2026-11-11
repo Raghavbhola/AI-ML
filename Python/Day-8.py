@@ -59,3 +59,23 @@ course_list = ["Python", "SQL", "DBMS"]
 select_c = "Python"
 if select_c in course_list:
     print("Course is available")
+
+
+#------------------------------------[ Nov. 11, 2026 ]--------------------------------------------------
+
+#7. ternanry condition
+temp = 3
+weather = "Hot" if temp > 30 else "decent"
+print(weather)
+
+#8. Match case condition
+day_number = 2 #We can use any matching string instead of number or boolean/float value as well
+match day_number:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case _:
+        print("Not a valid day")
