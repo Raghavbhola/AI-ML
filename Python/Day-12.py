@@ -1,11 +1,13 @@
 #--------------------------[ Nov. 16, 2026 ]-----------------------------
 
+
 #Map, filter and reduce
 num = [1,2,3,4,5,6]
 sqr = list(map(lambda nums:nums**2,num))
 print(sqr)
 
 names = ['kunal', 'lavisha', 'ravi', 'meena', 'rakesh']
+
 #caps = list(map(str.upper, names))
 caps = list(map(lambda name:name.upper(), names))
 print(caps)
